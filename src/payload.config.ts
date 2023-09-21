@@ -11,6 +11,7 @@ import About from './collections/About';
 import ContactInfo from './collections/ContactInfo';
 import Footer from './collections/Footer';
 import Blog from './collections/Blog';
+import MainImage from './collections/MainImage';
 
 
 
@@ -26,7 +27,7 @@ export default buildConfig({
     // Examples,
   ],
   globals: [
-    About,ContactInfo,Footer,
+    About,ContactInfo,Footer,MainImage,
   ],
   typescript: {
     outputFile: path.resolve(__dirname, 'payload-types.ts'),
