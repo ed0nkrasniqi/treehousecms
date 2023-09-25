@@ -12,6 +12,7 @@ import ContactInfo from './collections/ContactInfo';
 import Footer from './collections/Footer';
 import Blog from './collections/Blog';
 import MainImage from './collections/MainImage';
+import Showroom from './collections/ShowRoom';
 
 
 
@@ -22,7 +23,7 @@ export default buildConfig({
     user: Users.slug,
   },
   collections: [
-    Users,Media,Testimonials,Projects,Contact,HomeSlider,Blog,
+    Users,Media,Testimonials,Projects,Contact,HomeSlider,Blog,Showroom,
     // Add Collections here
     // Examples,
   ],
